@@ -41,7 +41,10 @@
         ],
         "nepmaid",
         "histoire",
-        "Epsilon2.1",
+        [
+            "EpsilonCollection/Epsilon2.1",
+            "EpsilonCollection/Epsilon"
+        ],
         [
             "haru/haru01",
             "haru/haru02"
@@ -70,7 +73,7 @@
         "来自 工作细胞 的 血小板 酱 ~",
         "nepmaid",
         "histoire",
-        "Epsilon2.1",
+        "Epsilon",
         "haru",
         "iio",
         "cat",
