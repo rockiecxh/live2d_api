@@ -12,10 +12,10 @@
         "width":2.0
     },
     "hit_areas_custom":{
-        "head_x":[-1, 1],
-        "head_y":[1, -1],
-        "body_x":[-1, -1],
-        "body_y":[1, -1]
+        "head_x":[-0.42, 0.83],
+        "head_y":[0.2, 0.12],
+        "body_x":[-0.51, 0.03],
+        "body_y":[0.47, -1]
     },
     "motions":
     {
@@ -32,7 +32,7 @@
         {
             "file": "motions/idle_04.mtn"
         }],
-        "null": [
+        "flick_head": [
         {
             "file": "motions/izumi_01.mtn",
             "sound": "sounds/izumi_01.mp3"
@@ -48,8 +48,8 @@
         {
             "file": "motions/izumi_04.mtn",
             "sound": "sounds/izumi_04.mp3"
-        },
-        {
+        }],
+        "tap_body": [{
             "file": "motions/izumi_05.mtn",
             "sound": "sounds/izumi_05.mp3"
         },

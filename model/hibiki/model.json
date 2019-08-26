@@ -5,17 +5,17 @@
     "layout":{
         "center_x":0.0,
         "center_y":-0.05,
-        "width":2.0
+        "width":1.0
     },
     "hit_areas_custom":{
-        "head_x":[-1, 1],
-        "head_y":[1, -1],
-        "body_x":[-1, -1],
-        "body_y":[1, -1]
+        "head_x":[-0.25, 1],
+        "head_y":[0.1, 0.58],
+        "body_x":[-0.33, 0.55],
+        "body_y":[0.45, -1]
     },
     "motions":
     {
-        "null": [
+        "flick_head": [
         {
             "file": "motions/hibiki_01.mtn",
             "sound": "sounds/hibiki_01.mp3"
@@ -23,8 +23,8 @@
         {
             "file": "motions/hibiki_02.mtn",
             "sound": "sounds/hibiki_02.mp3"
-        },
-        {
+        }],
+        "tap_body": [{
             "file": "motions/hibiki_03.mtn",
             "sound": "sounds/hibiki_03.mp3"
         },

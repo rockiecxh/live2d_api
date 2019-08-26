@@ -10,10 +10,10 @@
         "width":2.0
     },
     "hit_areas_custom":{
-        "head_x":[-1, 1],
-        "head_y":[1, -1],
-        "body_x":[-1, -1],
-        "body_y":[1, -1]
+        "head_x":[-0.41, 0.87],
+        "head_y":[0.31, 0.26],
+        "body_x":[-0.43, 0.29],
+        "body_y":[0.37, -0.85]
     },
     "motions":
     {
@@ -21,7 +21,7 @@
         {
             "file": "motions/00_idle.mtn"
         }],
-        "": [
+        "flick_head": [
         {
             "file": "motions/01.mtn"
         },
@@ -33,7 +33,8 @@
         },
         {
             "file": "motions/04.mtn"
-        },
+        }],
+        "tap_body": [
         {
             "file": "motions/05.mtn"
         },

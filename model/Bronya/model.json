@@ -24,6 +24,12 @@
       "id": "hm"
     }
   ],
+  "hit_areas_custom":{
+    "head_x":[-0.16, 0.85],
+    "head_y":[0.2, 0.6],
+    "body_x":[-0.39, 0.233],
+    "body_y":[1, -1]
+  },
   "motions": {
     "tap_hand": [
       {
@@ -58,6 +64,22 @@
     "tap_hm": [
       {
         "file": "motions/tap_hm/taphm.mtn","fade_in":1000,"fade_out":0,"text":"舰长也觉得吼美很可爱吗？布洛妮娅是属于舰长的，吼美除外。"
+      }
+    ],
+    "flick_head":[
+      {
+        "file": "motions/tap_hm/taphm.mtn","fade_in":1000,"fade_out":0,"text":"舰长也觉得吼美很可爱吗？布洛妮娅是属于舰长的，吼美除外。"
+      },
+      {
+        "file": "motions/tap_hand/taphand.mtn","fade_in":1000,"fade_out":0,"text":"虽然只是铂制的指环，但是布洛妮娅会珍惜的。"
+      }
+    ],
+    "tap_body":[
+      {
+        "file": "motions/tap_bust/tapbust1.mtn","fade_in":1000,"fade_out":0,"text":"唔……隨您喜歡吧，艦長。"
+      },
+      {
+        "file": "motions/tap_bust/tapbust2.mtn","fade_in":1000,"fade_out":0,"text":"小兔，充——能——！"
       }
     ]
   },
