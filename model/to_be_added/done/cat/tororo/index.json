@@ -1,0 +1,50 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "model.moc",
+    "textures": ["texture_00.png"],
+    "pose": "tororo.pose.json",
+    "name": "tororo",
+    "layout":{
+        "center_x":0.0,
+        "center_y":-0.05,
+        "width":2.0
+    },
+    "hit_areas_custom":{
+        "head_x":[-1, 1],
+        "head_y":[1, -1],
+        "body_x":[-1, -1],
+        "body_y":[1, -1]
+    },
+    "motions":
+    {
+        "idle": [
+        {
+            "file": "motions/00_idle.mtn"
+        }],
+        "": [
+        {
+            "file": "motions/01.mtn"
+        },
+        {
+            "file": "motions/02.mtn"
+        },
+        {
+            "file": "motions/03.mtn"
+        },
+        {
+            "file": "motions/04.mtn"
+        },
+        {
+            "file": "motions/05.mtn"
+        },
+        {
+            "file": "motions/06.mtn"
+        },
+        {
+            "file": "motions/07.mtn"
+        },
+        {
+            "file": "motions/08.mtn"
+        }]
+    }
+}

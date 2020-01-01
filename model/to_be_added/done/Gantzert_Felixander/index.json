@@ -1,0 +1,61 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "model.moc",
+    "textures": [
+        "textures/00.png", 
+        "textures/01.png", 
+        "textures/02.png", 
+        "textures/03.png", 
+        "textures/04.png", 
+        "textures/05.png", 
+        "textures/06.png"
+    ],
+    "layout":{
+        "center_x":0.0,
+        "center_y":-0.05,
+        "width":2.0
+    },    "hit_areas_custom":{
+        "head_x":[-0.35, 0.6],
+        "head_y":[0.19, -0.2],
+        "body_x":[-0.3, -0.25],
+        "body_y":[0.3, -0.9]
+    },
+    "motions":
+    {
+        "idle": [
+        {
+            "file": "motions/A_00_idle.mtn"
+        },
+    	{
+            "file": "motions/A_02.mtn"
+        },
+        {
+            "file": "motions/A_03.mtn"
+        },
+        {
+            "file": "motions/A_04.mtn"
+        },
+        {
+            "file": "motions/A_05.mtn"
+        },
+        {
+            "file": "motions/A_01.mtn"
+        }],
+        "tap_body": [
+        {
+            "file": "motions/A_02.mtn"
+        },
+        {
+            "file": "motions/A_03.mtn"
+        },
+        {
+            "file": "motions/A_04.mtn"
+        },
+        {
+            "file": "motions/A_05.mtn"
+        },
+        {
+            "file": "motions/A_01.mtn"
+        }]
+    }
+}

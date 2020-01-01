@@ -1,0 +1,19 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "YuzukiYukari",
+	"model": "model.moc",
+    "layout":{
+        "center_x":0.0,
+        "center_y":-0.05,
+        "width":2.0
+    },
+    "hit_areas_custom":{
+        "head_x":[-1, 1],
+        "head_y":[1, -1],
+        "body_x":[-1, -1],
+        "body_y":[1, -1]
+    },
+	"textures": [
+		"texture_00.png"
+	]
+}
