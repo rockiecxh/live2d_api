@@ -1,0 +1,107 @@
+{
+    "version": "Sample 1.0.0",
+    "model": "model.moc",
+    "textures": [
+    	"texture_00.png", 
+    	"texture_01.png", 
+    	"texture_02.png", 
+    	"texture_03.png"],
+    "layout":{
+        "center_x":0.0,
+        "center_y":-0.05,
+        "width":2.0
+    },
+    "hit_areas_custom":{
+        "head_x":[-1, 1],
+        "head_y":[1, -1],
+        "body_x":[-1, -1],
+        "body_y":[1, -1]
+    },
+    "motions":
+    {
+        "idle": [
+        {
+            "file": "motions/idle_01.mtn"
+        },
+        {
+            "file": "motions/idle_02.mtn"
+        },
+        {
+            "file": "motions/idle_03.mtn"
+        },
+        {
+            "file": "motions/idle_04.mtn"
+        }],
+        "null": [
+        {
+            "file": "motions/izumi_01.mtn",
+            "sound": "sounds/izumi_01.mp3"
+        },
+        {
+            "file": "motions/izumi_02.mtn",
+            "sound": "sounds/izumi_02.mp3"
+        },
+        {
+            "file": "motions/izumi_03.mtn",
+            "sound": "sounds/izumi_03.mp3"
+        },
+        {
+            "file": "motions/izumi_04.mtn",
+            "sound": "sounds/izumi_04.mp3"
+        },
+        {
+            "file": "motions/izumi_05.mtn",
+            "sound": "sounds/izumi_05.mp3"
+        },
+        {
+            "file": "motions/izumi_06.mtn",
+            "sound": "sounds/izumi_06.mp3"
+        },
+        {
+            "file": "motions/izumi_07.mtn",
+            "sound": "sounds/izumi_07.mp3"
+        },
+        {
+            "file": "motions/izumi_08.mtn",
+            "sound": "sounds/izumi_08.mp3"
+        },
+        {
+            "file": "motions/izumi_09.mtn",
+            "sound": "sounds/izumi_09.mp3"
+        },
+        {
+            "file": "motions/izumi_10.mtn",
+            "sound": "sounds/izumi_10.mp3"
+        }]
+    },
+    "expressions": [
+    {
+        "name": "f01.exp.json",
+        "file": "expressions/f01.exp.json"
+    },
+    {
+        "name": "f02.exp.json",
+        "file": "expressions/f02.exp.json"
+    },
+    {
+        "name": "f03.exp.json",
+        "file": "expressions/f03.exp.json"
+    },
+    {
+        "name": "f04.exp.json",
+        "file": "expressions/f04.exp.json"
+    },
+    {
+        "name": "f05.exp.json",
+        "file": "expressions/f05.exp.json"
+    },
+    {
+        "name": "f06.exp.json",
+        "file": "expressions/f06.exp.json"
+    },
+    {
+        "name": "f07.exp.json",
+        "file": "expressions/f07.exp.json"
+    }],
+    "physics": "izumi.physics.json"
+}

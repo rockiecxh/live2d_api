@@ -1,0 +1,8 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "iio",
+	"model": "model.moc",
+	"textures": [
+		"texture_00.png"
+	]
+}
