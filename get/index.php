@@ -25,7 +25,6 @@ if (is_array($modelName)) {
         if (isset($modelTexturesName)) $json['textures'] = is_array($modelTexturesName) ? $modelTexturesName : array($modelTexturesName);
     }
 }
-// for the new models
 if (strpos($json['model'],"live2d")) {
     $textures = json_encode($json['textures']);
 	$textures = str_replace('model', '../model', $textures);
@@ -33,11 +32,13 @@ if (strpos($json['model'],"live2d")) {
 	$json['textures'] = $textures;
 	$json['model'] = '../'.$json['model'];
 	if (isset($json['physics'])) $json['physics'] = '../'.$json['physics'];
+	// if (isset($json['motions'])) {
     $motions = json_encode($json['motions']);
     $motions = str_replace('model', '../model', $motions);
     $motions = json_decode($motions, 1);
     $json['motions'] = $motions;
-
+	// }
+	
 	if (isset($json['expressions'])) {
 	    $expressions = json_encode($json['expressions']);
 	    $expressions = str_replace('model', '../model', $expressions);
@@ -46,29 +47,29 @@ if (strpos($json['model'],"live2d")) {
 	}
 }
 else {
-    $textures = json_encode($json['textures']);
-    $textures = str_replace('texture', '../model/'.$modelName.'/texture', $textures);
-    $textures = json_decode($textures, 1);
-    $json['textures'] = $textures;
+$textures = json_encode($json['textures']);
+$textures = str_replace('texture', '../model/'.$modelName.'/texture', $textures);
+$textures = json_decode($textures, 1);
+$json['textures'] = $textures;
 
-    $json['model'] = '../model/'.$modelName.'/'.$json['model'];
-    if (isset($json['pose'])) $json['pose'] = '../model/'.$modelName.'/'.$json['pose'];
-    if (isset($json['physics'])) $json['physics'] = '../model/'.$modelName.'/'.$json['physics'];
+$json['model'] = '../model/'.$modelName.'/'.$json['model'];
+if (isset($json['pose'])) $json['pose'] = '../model/'.$modelName.'/'.$json['pose'];
+if (isset($json['physics'])) $json['physics'] = '../model/'.$modelName.'/'.$json['physics'];
 
-    if (isset($json['motions'])) {
-        $motions = json_encode($json['motions']);
-        $motions = str_replace('sounds', '../model/'.$modelName.'/sounds', $motions);
-        $motions = str_replace('motions', '../model/'.$modelName.'/motions', $motions);
-        $motions = json_decode($motions, 1);
-        $json['motions'] = $motions;
-    }
+if (isset($json['motions'])) {
+    $motions = json_encode($json['motions']);
+    $motions = str_replace('sounds', '../model/'.$modelName.'/sounds', $motions);
+    $motions = str_replace('motions', '../model/'.$modelName.'/motions', $motions);
+    $motions = json_decode($motions, 1);
+    $json['motions'] = $motions;
+}
 
-    if (isset($json['expressions'])) {
-        $expressions = json_encode($json['expressions']);
-        $expressions = str_replace('expressions', '../model/'.$modelName.'/expressions', $expressions);
-        $expressions = json_decode($expressions, 1);
-        $json['expressions'] = $expressions;
-    }
+if (isset($json['expressions'])) {
+    $expressions = json_encode($json['expressions']);
+    $expressions = str_replace('expressions', '../model/'.$modelName.'/expressions', $expressions);
+    $expressions = json_decode($expressions, 1);
+    $json['expressions'] = $expressions;
+}
 }
 
 header("Content-type: application/json");

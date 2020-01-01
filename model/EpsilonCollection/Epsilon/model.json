@@ -6,18 +6,18 @@
 		"textures/01.png",
 		"textures/02.png"
 	],
-	"layout":
+    "layout":
 	{
 		"center_x":0,
 		"center_y":-0.42,
 		"width":1.8
 	},
-	"hit_areas_custom":{
-		"head_x":[-0.34, 0.79],
-		"head_y":[0.49, 0.13],
-		"body_x":[-0.38, -0.086],
-		"body_y":[0.54, -1]
-	},
+    "hit_areas_custom":{
+        "head_x":[-0.34, 0.79],
+        "head_y":[0.49, 0.13],
+        "body_x":[-0.38, -0.086],
+        "body_y":[0.54, -1]
+    },
 	"motions":{
 		"idle":[
 			{
@@ -49,9 +49,10 @@
 			{
 				"file":"motions/Epsilon_m_08.mtn"
 			}],
-		"tap_body":[{
-			"file":"motions/Epsilon_m_sp_01.mtn"
-		  },
+			"tap_body":[
+			{
+				"file":"motions/Epsilon_m_sp_01.mtn"
+			},
 			{
 				"file":"motions/Epsilon_m_sp_02.mtn"
 			},

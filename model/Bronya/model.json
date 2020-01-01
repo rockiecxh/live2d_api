@@ -24,12 +24,12 @@
       "id": "hm"
     }
   ],
-  "hit_areas_custom":{
-    "head_x":[-0.16, 0.85],
-    "head_y":[0.2, 0.6],
-    "body_x":[-0.39, 0.233],
-    "body_y":[1, -1]
-  },
+    "hit_areas_custom":{
+        "head_x":[-0.16, 0.85],
+        "head_y":[0.2, 0.6],
+        "body_x":[-0.39, 0.233],
+        "body_y":[1, -1]
+    },
   "motions": {
     "tap_hand": [
       {
@@ -72,7 +72,7 @@
       },
       {
         "file": "motions/tap_hand/taphand.mtn","fade_in":1000,"fade_out":0,"text":"虽然只是铂制的指环，但是布洛妮娅会珍惜的。"
-      }
+      }     
     ],
     "tap_body":[
       {
