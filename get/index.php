@@ -14,6 +14,10 @@ $modelId = (int)$id[0];
 $modelTexturesId = isset($id[1]) ? (int)$id[1] : 0;
 
 $modelName = $modelList->id_to_name($modelId);
+if (!$modelName) {
+    // prevent empty modelName
+    $modelName = $modelList->id_to_name(1);
+}
 
 if (is_array($modelName)) {
     $modelName = $modelTexturesId > 0 ? $modelName[$modelTexturesId-1] : $modelName[0];
