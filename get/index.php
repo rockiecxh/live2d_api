@@ -52,7 +52,8 @@ if (strpos($json['model'],"live2d")) {
 }
 else {
 $textures = json_encode($json['textures']);
-$textures = str_replace('texture', '../model/'.$modelName.'/texture', $textures);
+$textures = preg_filter('/^/', '../model/'.$modelName.'/', $textures);
+//$textures = str_replace('texture', '../model/'.$modelName.'/texture', $textures);
 $textures = json_decode($textures, 1);
 $json['textures'] = $textures;
 
