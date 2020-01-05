@@ -4,6 +4,13 @@
 	"textures":[
 		"textures/texture_00.png"
 	],
+    "hit_areas_custom":
+    {
+        "head_x": [-0.28, 0.95],
+        "head_y": [0.3, 0, 35],
+        "body_x": [-0.37, 0.26],
+        "body_y": [0.6, -1]
+    },
 	"motions":{
 		"idle":[
 			{"file":"motions/daiji_idle_01.mtn"}
