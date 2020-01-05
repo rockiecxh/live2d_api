@@ -1,0 +1,62 @@
+{
+	"type":"Live2D Model Setting",
+    "name":"asuna_04",
+	"model":"model.moc",
+	"textures":[
+		"textures/texture_00.png",
+		"textures/texture_01.png",
+		"textures/texture_02.png",
+		"textures/texture_03.png"
+	],
+    "hit_areas_custom":
+    {
+        "head_x": [-0.28, 0.95],
+        "head_y": [0.3, 0, 35],
+        "body_x": [-0.37, 0.26],
+        "body_y": [0.6, -1]
+    },
+	"expressions":[
+		{"name":"F_FUN","file":"expressions/F_FUN.exp.json"},
+		{"name":"F_FUN_HANIKAMI","file":"expressions/F_FUN_HANIKAMI.exp.json"},
+		{"name":"F_FUN_MAX","file":"expressions/F_FUN_MAX.exp.json"},
+		{"name":"F_FUN_SMILE","file":"expressions/F_FUN_SMILE.exp.json"},
+		{"name":"F_FUN_WARM","file":"expressions/F_FUN_WARM.exp.json"},
+		{"name":"F_NOMAL","file":"expressions/F_NOMAL.exp.json"},
+		{"name":"F_SAD","file":"expressions/F_SAD.exp.json"},
+		{"name":"F_SURPRISE","file":"expressions/F_SURPRISE.exp.json"},
+		{"name":"F_ANGRY","file":"expressions/F_ANGRY.exp.json"},
+		{"name":"F_SLEEP","file":"expressions/F_SLEEP.exp.json"}
+	],
+	"hit_areas":
+	[
+		{"name":"chest", "id":"D_REF.PT_CHEST"},
+		{"name":"head", "id":"D_REF.PT_HEAD"},
+		{"name":"body", "id":"D_REF.PT_BODY"}
+	],
+	"motions":{
+		"tap_body":[
+			{"file":"motions/I_ANGRY_W.mtn"},
+			{"file":"motions/I_FUN.mtn"},
+			{"file":"motions/I_FUN_S.mtn"},
+			{"file":"motions/I_FUN_W.mtn"},
+			{"file":"motions/I_SAD.mtn"},
+			{"file":"motions/I_SAD_S.mtn"},
+			{"file":"motions/I_SAD_W.mtn"},
+			{"file":"motions/I_SNEESE.mtn"},
+			{"file":"motions/I_SURPRISE.mtn"},
+			{"file":"motions/I_SURPRISE_S.mtn"},
+			{"file":"motions/I_SURPRISE_W.mtn"},
+			{"file":"motions/REPEAT_01.mtn"},
+			{"file":"motions/REPEAT_02.mtn"},
+			{"file":"motions/REPEAT_03.mtn"},
+			{"file":"motions/I_ANGRY.mtn"},
+			{"file":"motions/I_ANGRY_S.mtn"}
+		],
+		"idle":[
+			{"file":"motions/IDLING_01.mtn"},
+			{"file":"motions/IDLING_02.mtn"},
+			{"file":"motions/IDLING_03.mtn"}
+		]
+	},
+	"physics":"asuna_04.physics.json"
+}
