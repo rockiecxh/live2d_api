@@ -6,28 +6,34 @@
 	],
     "hit_areas_custom":
     {
-        "head_x": [-0.28, 0.95],
-        "head_y": [0.3, 0, 35],
-        "body_x": [-0.37, 0.26],
-        "body_y": [0.6, -1]
+        "head_x": [-0.28, 0.91],
+        "head_y": [0.08, 0.60],
+        "body_x": [-0.39, 0.61],
+        "body_y": [0.73, -1]
     },
 	"motions":{
 		"idle":[
-			{"file":"motions/daiji_idle_01.mtn"}
+			{"file":"motions/daiji_idle_01.mtn"},
+			{"file":"motions/wait_1.mtn"},
+			{"file":"motions/wait_2.mtn"},
+			{"file":"motions/wedding.mtn"}
 		],
-		"":[
+		"tap_body":[
 			{"file":"motions/touch_1.mtn"},
 			{"file":"motions/touch_2.mtn"},
 			{"file":"motions/touch_3.mtn"},
 			{"file":"motions/touch_4.mtn"},
 			{"file":"motions/touch_5.mtn"},
 			{"file":"motions/shake.mtn"},
-			{"file":"motions/newyear.mtn"},
 			{"file":"motions/wedding_touch.mtn"},
-			{"file":"motions/login.mtn"},
-			{"file":"motions/wait_1.mtn"},
-			{"file":"motions/wedding.mtn"},
-			{"file":"motions/wait_2.mtn"}
+			{"file":"motions/login.mtn"}
+		],
+		"shake": [
+			{"file":"motions/shake.mtn"}
+		],
+		"flick_head": [
+			{"file":"motions/wedding_touch.mtn"},
+			{"file":"motions/newyear.mtn"}
 		]
 	},
 	

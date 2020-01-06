@@ -20,15 +20,19 @@
     "hit_areas_custom":
     {
         "head_x": [-0.28, 0.95],
-        "head_y": [0.3, 0, 35],
-        "body_x": [-0.37, 0.26],
-        "body_y": [0.6, -1]
+        "head_y": [0.24, 0.53],
+        "body_x": [-0.51, 0.55],
+        "body_y": [0.71, -1]
     },
 	"motions":{
 		"idle":[
+			{"file":"motions/wait_1.mtn"},
+			{"file":"motions/wait_2.mtn"},
+			{"file":"motions/wait_3.mtn"},
+			{"file":"motions/wait_4.mtn"},
 			{"file":"motions/daiji_idle_01.mtn"}
 		],
-		"":[
+		"tap_body":[
 			{"file":"motions/buy_2.mtn"},
 			{"file":"motions/enter_shop.mtn"},
 			{"file":"motions/levelup.mtn"},
@@ -39,11 +43,6 @@
 			{"file":"motions/shake.mtn"},
 			{"file":"motions/touch_arm.mtn"},
 			{"file":"motions/touch_breast.mtn"},
-			{"file":"motions/touch_head.mtn"},
-			{"file":"motions/wait_1.mtn"},
-			{"file":"motions/wait_2.mtn"},
-			{"file":"motions/wait_3.mtn"},
-			{"file":"motions/wait_4.mtn"},
 			{"file":"motions/buy_1.mtn"},
 			{"file":"motions/kalina_004.mtn"},
 			{"file":"motions/kalina_014.mtn"},
@@ -55,8 +54,12 @@
 			{"file":"motions/kalina_037.mtn"},
 			{"file":"motions/kalina_043.mtn"},
 			{"file":"motions/kalina_054.mtn"}
-			
-			
+		],
+		"shake": [
+			{"file":"motions/shake.mtn"}
+		],
+		"flick_head": [
+			{"file":"motions/touch_head.mtn"}
 		]
 	},
 	"physics":"physics.json",
