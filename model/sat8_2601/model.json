@@ -6,13 +6,13 @@
 	],
     "hit_areas_custom":
     {
-        "head_x": [-0.28, 0.95],
-        "head_y": [0.38, 0.53],
-        "body_x": [-0.37, 0.26],
+        "head_x": [-0.18, 0.55],
+        "head_y": [0.13, 0.33],
+        "body_x": [-0.67, 0.26],
         "body_y": [0.6, -1]
     },
 	"motions":{
-		"":[
+		"tap_body":[
 			{"file":"motions/login.mtn"},
 			{"file":"motions/shake.mtn"},
 			{"file":"motions/touch_01.mtn"},
@@ -25,7 +25,16 @@
 			{"file":"motions/wedding.mtn"},
 			{"file":"motions/wedding_touch.mtn"}
 		],
+		"shake": [
+			{"file":"motions/shake.mtn"}
+		],
+		"flick_head": [
+			{"file":"motions/wedding_touch.mtn"}
+		],
 		"idle":[
+			{"file":"motions/wait_1.mtn"},
+			{"file":"motions/wait_2.mtn"},
+			{"file":"motions/wedding.mtn"},
 			{"file":"motions/daiji_idle_01.mtn"}
 		]
 	},
