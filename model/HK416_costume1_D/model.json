@@ -27,10 +27,10 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/broken_1.mtn"
+                "file": "motions/broken_2.mtn"
             },
             {
-                "file": "motions/broken_2.mtn"
+                "file": "motions/broken_1.mtn"
             },
             {
                 "file": "motions/broken_4.mtn"
@@ -45,28 +45,29 @@
                 "file": "motions/broken_3.mtn"
             }
         ],
-        "shake": [
-            {
-                "file": "motions/shake.mtn"
-            }
-        ],
         "flick_head": [
             {
-                "file": "motions/wedding_touch.mtn"
+                "file": "motions/broken_2.mtn"
+            },
+            {
+                "file": "motions/broken_1.mtn"
+            },
+            {
+                "file": "motions/broken_4.mtn"
+            },
+            {
+                "file": "motions/broken_5.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_02.mtn"
+            },
+            {
+                "file": "motions/broken_3.mtn"
             }
         ],
         "idle": [
             {
-                "file": "motions/wait_1.mtn"
-            },
-            {
-                "file": "motions/wait_2.mtn"
-            },
-            {
-                "file": "motions/wedding.mtn"
-            },
-            {
-                "file": "motions/daiji_idle_01.mtn"
+                "file": "motions/daiji_idle_02.mtn"
             }
         ]
     },

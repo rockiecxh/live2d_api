@@ -27,43 +27,43 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/daiji_idle_01.mtn"
-            },
-            {
-                "file": "motions/wait_2.mtn"
-            },
-            {
-                "file": "motions/login.mtn"
-            },
-            {
-                "file": "motions/touch_2.mtn"
-            },
-            {
-                "file": "motions/touch_3.mtn"
-            },
-            {
-                "file": "motions/touch_4.mtn"
+                "file": "motions/whiteday.mtn"
             },
             {
                 "file": "motions/wait_1.mtn"
             },
             {
-                "file": "motions/wedding.mtn"
-            },
-            {
-                "file": "motions/whiteday.mtn"
-            },
-            {
-                "file": "motions/touch_5.mtn"
-            },
-            {
                 "file": "motions/touch_1.mtn"
+            },
+            {
+                "file": "motions/touch_2.mtn"
+            },
+            {
+                "file": "motions/touch_4.mtn"
+            },
+            {
+                "file": "motions/touch_3.mtn"
+            },
+            {
+                "file": "motions/wait_2.mtn"
             },
             {
                 "file": "motions/wedding_touch.mtn"
             },
             {
                 "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/wedding.mtn"
+            },
+            {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            },
+            {
+                "file": "motions/touch_5.mtn"
             }
         ],
         "shake": [
@@ -73,7 +73,43 @@
         ],
         "flick_head": [
             {
+                "file": "motions/whiteday.mtn"
+            },
+            {
+                "file": "motions/wait_1.mtn"
+            },
+            {
+                "file": "motions/touch_1.mtn"
+            },
+            {
+                "file": "motions/touch_2.mtn"
+            },
+            {
+                "file": "motions/touch_4.mtn"
+            },
+            {
+                "file": "motions/touch_3.mtn"
+            },
+            {
+                "file": "motions/wait_2.mtn"
+            },
+            {
                 "file": "motions/wedding_touch.mtn"
+            },
+            {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/wedding.mtn"
+            },
+            {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            },
+            {
+                "file": "motions/touch_5.mtn"
             }
         ],
         "idle": [
@@ -82,6 +118,9 @@
             },
             {
                 "file": "motions/wait_2.mtn"
+            },
+            {
+                "file": "motions/wedding_touch.mtn"
             },
             {
                 "file": "motions/wedding.mtn"

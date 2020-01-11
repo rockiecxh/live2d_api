@@ -33,34 +33,29 @@
                 "file": "motions/motou_03.mtn"
             },
             {
-                "file": "motions/motou_01.mtn"
+                "file": "motions/motou_02.mtn"
             },
             {
-                "file": "motions/motou_02.mtn"
-            }
-        ],
-        "shake": [
-            {
-                "file": "motions/shake.mtn"
+                "file": "motions/motou_01.mtn"
             }
         ],
         "flick_head": [
             {
-                "file": "motions/wedding_touch.mtn"
+                "file": "motions/daiji_idle.mtn"
+            },
+            {
+                "file": "motions/motou_03.mtn"
+            },
+            {
+                "file": "motions/motou_02.mtn"
+            },
+            {
+                "file": "motions/motou_01.mtn"
             }
         ],
         "idle": [
             {
-                "file": "motions/wait_1.mtn"
-            },
-            {
-                "file": "motions/wait_2.mtn"
-            },
-            {
-                "file": "motions/wedding.mtn"
-            },
-            {
-                "file": "motions/daiji_idle_01.mtn"
+                "file": "motions/daiji_idle.mtn"
             }
         ]
     },

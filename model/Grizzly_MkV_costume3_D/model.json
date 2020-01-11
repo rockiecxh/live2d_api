@@ -27,31 +27,31 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/wait_1.mtn"
-            },
-            {
-                "file": "motions/broken_2.mtn"
-            },
-            {
                 "file": "motions/broken_4.mtn"
-            },
-            {
-                "file": "motions/daiji.mtn"
             },
             {
                 "file": "motions/broken_3.mtn"
             },
             {
-                "file": "motions/login.mtn"
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/broken_2.mtn"
             },
             {
                 "file": "motions/broken_1.mtn"
             },
             {
-                "file": "motions/shake.mtn"
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/daiji.mtn"
             },
             {
                 "file": "motions/broken_5.mtn"
+            },
+            {
+                "file": "motions/wait_1.mtn"
             }
         ],
         "shake": [
@@ -61,21 +61,36 @@
         ],
         "flick_head": [
             {
-                "file": "motions/wedding_touch.mtn"
+                "file": "motions/broken_4.mtn"
+            },
+            {
+                "file": "motions/broken_3.mtn"
+            },
+            {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/broken_2.mtn"
+            },
+            {
+                "file": "motions/broken_1.mtn"
+            },
+            {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/daiji.mtn"
+            },
+            {
+                "file": "motions/broken_5.mtn"
+            },
+            {
+                "file": "motions/wait_1.mtn"
             }
         ],
         "idle": [
             {
                 "file": "motions/wait_1.mtn"
-            },
-            {
-                "file": "motions/wait_2.mtn"
-            },
-            {
-                "file": "motions/wedding.mtn"
-            },
-            {
-                "file": "motions/daiji_idle_01.mtn"
             }
         ]
     },
