@@ -1,0 +1,86 @@
+{
+    "name": "Classic Witch (Damaged)",
+    "type": "Live2D Model Setting",
+    "version": "Sample 1.0.0",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png"
+    ],
+    "hit_areas_custom": {
+        "head_x": [
+            -0.36,
+            1.25
+        ],
+        "head_y": [
+            0.33,
+            0.67
+        ],
+        "body_x": [
+            -0.76,
+            0.66
+        ],
+        "body_y": [
+            0.78,
+            -1
+        ]
+    },
+    "motions": {
+        "tap_body": [
+            {
+                "file": "motions/wait_1.mtn"
+            },
+            {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            },
+            {
+                "file": "motions/broken_5.mtn"
+            },
+            {
+                "file": "motions/broken_4.mtn"
+            },
+            {
+                "file": "motions/broken_1.mtn"
+            },
+            {
+                "file": "motions/broken_3.mtn"
+            },
+            {
+                "file": "motions/broken_2.mtn"
+            }
+        ],
+        "shake": [
+            {
+                "file": "motions/shake.mtn"
+            }
+        ],
+        "flick_head": [
+            {
+                "file": "motions/wedding_touch.mtn"
+            }
+        ],
+        "idle": [
+            {
+                "file": "motions/wait_1.mtn"
+            },
+            {
+                "file": "motions/wait_2.mtn"
+            },
+            {
+                "file": "motions/wedding.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            }
+        ]
+    },
+    "physics": "physics.json",
+    "hit_areas": [
+        {
+            "name": "body",
+            "id": "D_REF.BODY"
+        }
+    ]
+}

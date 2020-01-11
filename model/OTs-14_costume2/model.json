@@ -1,0 +1,106 @@
+{
+    "name": "Crassula Volkensii",
+    "type": "Live2D Model Setting",
+    "version": "Sample 1.0.0",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png"
+    ],
+    "hit_areas_custom": {
+        "head_x": [
+            -0.36,
+            1.25
+        ],
+        "head_y": [
+            0.33,
+            0.67
+        ],
+        "body_x": [
+            -0.76,
+            0.66
+        ],
+        "body_y": [
+            0.78,
+            -1
+        ]
+    },
+    "motions": {
+        "tap_body": [
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            },
+            {
+                "file": "motions/wedding.mtn"
+            },
+            {
+                "file": "motions/touch_5.mtn"
+            },
+            {
+                "file": "motions/wedding_touch.mtn"
+            },
+            {
+                "file": "motions/touch_3.mtn"
+            },
+            {
+                "file": "motions/wait_1.mtn"
+            },
+            {
+                "file": "motions/wait_2.mtn"
+            },
+            {
+                "file": "motions/touch_1.mtn"
+            },
+            {
+                "file": "motions/touch_4.mtn"
+            },
+            {
+                "file": "motions/touch_2.mtn"
+            },
+            {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/login.mtn"
+            }
+        ],
+        "shake": [
+            {
+                "file": "motions/shake.mtn"
+            }
+        ],
+        "flick_head": [
+            {
+                "file": "motions/wedding_touch.mtn"
+            }
+        ],
+        "idle": [
+            {
+                "file": "motions/wait_1.mtn"
+            },
+            {
+                "file": "motions/wait_2.mtn"
+            },
+            {
+                "file": "motions/wedding.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            }
+        ]
+    },
+    "physics": "physics.json",
+    "hit_areas": [
+        {
+            "name": "head",
+            "id": "D_REF.HEAD"
+        },
+        {
+            "name": "leg",
+            "id": "D_REF.LEG"
+        },
+        {
+            "name": "body",
+            "id": "D_REF.BODY"
+        }
+    ]
+}
