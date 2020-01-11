@@ -27,53 +27,53 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/wait_02.mtn"
-            },
-            {
-                "file": "motions/motou_01.mtn"
+                "file": "motions/motou_03.mtn"
             },
             {
                 "file": "motions/wait_01.mtn"
             },
             {
-                "file": "motions/motou_03.mtn"
+                "file": "motions/motou_01.mtn"
+            },
+            {
+                "file": "motions/daiji_idle.mtn"
             },
             {
                 "file": "motions/motou_02.mtn"
             },
             {
-                "file": "motions/daiji_idle.mtn"
+                "file": "motions/wait_02.mtn"
             }
         ],
         "flick_head": [
             {
-                "file": "motions/wait_02.mtn"
+                "file": "motions/motou_03.mtn"
+            },
+            {
+                "file": "motions/wait_01.mtn"
             },
             {
                 "file": "motions/motou_01.mtn"
             },
             {
-                "file": "motions/wait_01.mtn"
-            },
-            {
-                "file": "motions/motou_03.mtn"
+                "file": "motions/daiji_idle.mtn"
             },
             {
                 "file": "motions/motou_02.mtn"
             },
             {
-                "file": "motions/daiji_idle.mtn"
+                "file": "motions/wait_02.mtn"
             }
         ],
         "idle": [
-            {
-                "file": "motions/wait_02.mtn"
-            },
             {
                 "file": "motions/wait_01.mtn"
             },
             {
                 "file": "motions/daiji_idle.mtn"
+            },
+            {
+                "file": "motions/wait_02.mtn"
             }
         ]
     },

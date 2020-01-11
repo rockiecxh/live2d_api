@@ -27,49 +27,49 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/shuohua_03.mtn"
-            },
-            {
-                "file": "motions/shake.mtn"
-            },
-            {
                 "file": "motions/moxiong_01.mtn"
-            },
-            {
-                "file": "motions/login.mtn"
-            },
-            {
-                "file": "motions/motou_03.mtn"
             },
             {
                 "file": "motions/motou_01.mtn"
             },
             {
-                "file": "motions/moxiong_02.mtn"
+                "file": "motions/wait_1.mtn"
+            },
+            {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/wait_2.mtn"
             },
             {
                 "file": "motions/daiji_idle_01.mtn"
             },
             {
-                "file": "motions/wait_1.mtn"
+                "file": "motions/motou_02.mtn"
+            },
+            {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/shuohua_02.mtn"
+            },
+            {
+                "file": "motions/shuohua_03.mtn"
             },
             {
                 "file": "motions/moxiong_03.mtn"
             },
             {
-                "file": "motions/motou_02.mtn"
+                "file": "motions/motou_03.mtn"
+            },
+            {
+                "file": "motions/moxiong_02.mtn"
             },
             {
                 "file": "motions/shuohua_01.mtn"
             },
             {
                 "file": "motions/newyear.mtn"
-            },
-            {
-                "file": "motions/shuohua_02.mtn"
-            },
-            {
-                "file": "motions/wait_2.mtn"
             }
         ],
         "shake": [
@@ -79,60 +79,60 @@
         ],
         "flick_head": [
             {
-                "file": "motions/shuohua_03.mtn"
-            },
-            {
-                "file": "motions/shake.mtn"
-            },
-            {
                 "file": "motions/moxiong_01.mtn"
-            },
-            {
-                "file": "motions/login.mtn"
-            },
-            {
-                "file": "motions/motou_03.mtn"
             },
             {
                 "file": "motions/motou_01.mtn"
             },
             {
-                "file": "motions/moxiong_02.mtn"
+                "file": "motions/wait_1.mtn"
+            },
+            {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/wait_2.mtn"
             },
             {
                 "file": "motions/daiji_idle_01.mtn"
             },
             {
-                "file": "motions/wait_1.mtn"
+                "file": "motions/motou_02.mtn"
+            },
+            {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/shuohua_02.mtn"
+            },
+            {
+                "file": "motions/shuohua_03.mtn"
             },
             {
                 "file": "motions/moxiong_03.mtn"
             },
             {
-                "file": "motions/motou_02.mtn"
+                "file": "motions/motou_03.mtn"
+            },
+            {
+                "file": "motions/moxiong_02.mtn"
             },
             {
                 "file": "motions/shuohua_01.mtn"
             },
             {
                 "file": "motions/newyear.mtn"
-            },
-            {
-                "file": "motions/shuohua_02.mtn"
-            },
-            {
-                "file": "motions/wait_2.mtn"
             }
         ],
         "idle": [
-            {
-                "file": "motions/daiji_idle_01.mtn"
-            },
             {
                 "file": "motions/wait_1.mtn"
             },
             {
                 "file": "motions/wait_2.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
             }
         ]
     },

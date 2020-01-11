@@ -27,82 +27,82 @@
     "motions": {
         "tap_body": [
             {
+                "file": "motions/kalina_054.mtn"
+            },
+            {
+                "file": "motions/kalina_024.mtn"
+            },
+            {
+                "file": "motions/kalina_043.mtn"
+            },
+            {
+                "file": "motions/enter_shop.mtn"
+            },
+            {
+                "file": "motions/buy_2.mtn"
+            },
+            {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/touch_breast.mtn"
+            },
+            {
+                "file": "motions/kalina_004.mtn"
+            },
+            {
+                "file": "motions/wait_4.mtn"
+            },
+            {
+                "file": "motions/mall_03.mtn"
+            },
+            {
                 "file": "motions/mall_01.mtn"
             },
             {
                 "file": "motions/wait_2.mtn"
             },
             {
-                "file": "motions/kalina_030.mtn"
-            },
-            {
-                "file": "motions/buy_1.mtn"
-            },
-            {
-                "file": "motions/levelup.mtn"
+                "file": "motions/mall_02.mtn"
             },
             {
                 "file": "motions/wait_1.mtn"
             },
             {
-                "file": "motions/kalina_004.mtn"
-            },
-            {
-                "file": "motions/kalina_035.mtn"
-            },
-            {
-                "file": "motions/kalina_054.mtn"
-            },
-            {
-                "file": "motions/wait_3.mtn"
+                "file": "motions/mall_04.mtn"
             },
             {
                 "file": "motions/kalina_025.mtn"
             },
             {
-                "file": "motions/kalina_014.mtn"
+                "file": "motions/wait_3.mtn"
             },
             {
-                "file": "motions/touch_breast.mtn"
+                "file": "motions/buy_1.mtn"
             },
             {
-                "file": "motions/kalina_024.mtn"
-            },
-            {
-                "file": "motions/daiji_idle_01.mtn"
-            },
-            {
-                "file": "motions/wait_4.mtn"
-            },
-            {
-                "file": "motions/shake.mtn"
-            },
-            {
-                "file": "motions/mall_02.mtn"
-            },
-            {
-                "file": "motions/mall_03.mtn"
-            },
-            {
-                "file": "motions/kalina_043.mtn"
-            },
-            {
-                "file": "motions/buy_2.mtn"
-            },
-            {
-                "file": "motions/kalina_037.mtn"
+                "file": "motions/kalina_030.mtn"
             },
             {
                 "file": "motions/touch_head.mtn"
             },
             {
+                "file": "motions/levelup.mtn"
+            },
+            {
+                "file": "motions/kalina_035.mtn"
+            },
+            {
+                "file": "motions/kalina_037.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            },
+            {
+                "file": "motions/kalina_014.mtn"
+            },
+            {
                 "file": "motions/touch_arm.mtn"
-            },
-            {
-                "file": "motions/enter_shop.mtn"
-            },
-            {
-                "file": "motions/mall_04.mtn"
             },
             {
                 "file": "motions/kalina_027.mtn"
@@ -115,82 +115,82 @@
         ],
         "flick_head": [
             {
+                "file": "motions/kalina_054.mtn"
+            },
+            {
+                "file": "motions/kalina_024.mtn"
+            },
+            {
+                "file": "motions/kalina_043.mtn"
+            },
+            {
+                "file": "motions/enter_shop.mtn"
+            },
+            {
+                "file": "motions/buy_2.mtn"
+            },
+            {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/touch_breast.mtn"
+            },
+            {
+                "file": "motions/kalina_004.mtn"
+            },
+            {
+                "file": "motions/wait_4.mtn"
+            },
+            {
+                "file": "motions/mall_03.mtn"
+            },
+            {
                 "file": "motions/mall_01.mtn"
             },
             {
                 "file": "motions/wait_2.mtn"
             },
             {
-                "file": "motions/kalina_030.mtn"
-            },
-            {
-                "file": "motions/buy_1.mtn"
-            },
-            {
-                "file": "motions/levelup.mtn"
+                "file": "motions/mall_02.mtn"
             },
             {
                 "file": "motions/wait_1.mtn"
             },
             {
-                "file": "motions/kalina_004.mtn"
-            },
-            {
-                "file": "motions/kalina_035.mtn"
-            },
-            {
-                "file": "motions/kalina_054.mtn"
-            },
-            {
-                "file": "motions/wait_3.mtn"
+                "file": "motions/mall_04.mtn"
             },
             {
                 "file": "motions/kalina_025.mtn"
             },
             {
-                "file": "motions/kalina_014.mtn"
+                "file": "motions/wait_3.mtn"
             },
             {
-                "file": "motions/touch_breast.mtn"
+                "file": "motions/buy_1.mtn"
             },
             {
-                "file": "motions/kalina_024.mtn"
-            },
-            {
-                "file": "motions/daiji_idle_01.mtn"
-            },
-            {
-                "file": "motions/wait_4.mtn"
-            },
-            {
-                "file": "motions/shake.mtn"
-            },
-            {
-                "file": "motions/mall_02.mtn"
-            },
-            {
-                "file": "motions/mall_03.mtn"
-            },
-            {
-                "file": "motions/kalina_043.mtn"
-            },
-            {
-                "file": "motions/buy_2.mtn"
-            },
-            {
-                "file": "motions/kalina_037.mtn"
+                "file": "motions/kalina_030.mtn"
             },
             {
                 "file": "motions/touch_head.mtn"
             },
             {
+                "file": "motions/levelup.mtn"
+            },
+            {
+                "file": "motions/kalina_035.mtn"
+            },
+            {
+                "file": "motions/kalina_037.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
+            },
+            {
+                "file": "motions/kalina_014.mtn"
+            },
+            {
                 "file": "motions/touch_arm.mtn"
-            },
-            {
-                "file": "motions/enter_shop.mtn"
-            },
-            {
-                "file": "motions/mall_04.mtn"
             },
             {
                 "file": "motions/kalina_027.mtn"
@@ -198,6 +198,9 @@
         ],
         "idle": [
             {
+                "file": "motions/wait_4.mtn"
+            },
+            {
                 "file": "motions/wait_2.mtn"
             },
             {
@@ -208,9 +211,6 @@
             },
             {
                 "file": "motions/daiji_idle_01.mtn"
-            },
-            {
-                "file": "motions/wait_4.mtn"
             }
         ]
     },

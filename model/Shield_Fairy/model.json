@@ -27,30 +27,30 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/motou_02.mtn"
-            },
-            {
-                "file": "motions/daiji_idle_01.mtn"
-            },
-            {
                 "file": "motions/motou_03.mtn"
             },
             {
                 "file": "motions/motou_01.mtn"
+            },
+            {
+                "file": "motions/motou_02.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
             }
         ],
         "flick_head": [
             {
-                "file": "motions/motou_02.mtn"
-            },
-            {
-                "file": "motions/daiji_idle_01.mtn"
-            },
-            {
                 "file": "motions/motou_03.mtn"
             },
             {
                 "file": "motions/motou_01.mtn"
+            },
+            {
+                "file": "motions/motou_02.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_01.mtn"
             }
         ],
         "idle": [

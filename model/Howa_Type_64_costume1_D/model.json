@@ -27,7 +27,7 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/broken_3.mtn"
+                "file": "motions/shake.mtn"
             },
             {
                 "file": "motions/daiji_idle.mtn"
@@ -39,16 +39,16 @@
                 "file": "motions/broken_1.mtn"
             },
             {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/broken_3.mtn"
+            },
+            {
                 "file": "motions/broken_2.mtn"
             },
             {
-                "file": "motions/shake.mtn"
-            },
-            {
                 "file": "motions/broken_4.mtn"
-            },
-            {
-                "file": "motions/login.mtn"
             }
         ],
         "shake": [
@@ -58,7 +58,7 @@
         ],
         "flick_head": [
             {
-                "file": "motions/broken_3.mtn"
+                "file": "motions/shake.mtn"
             },
             {
                 "file": "motions/daiji_idle.mtn"
@@ -70,16 +70,16 @@
                 "file": "motions/broken_1.mtn"
             },
             {
+                "file": "motions/login.mtn"
+            },
+            {
+                "file": "motions/broken_3.mtn"
+            },
+            {
                 "file": "motions/broken_2.mtn"
             },
             {
-                "file": "motions/shake.mtn"
-            },
-            {
                 "file": "motions/broken_4.mtn"
-            },
-            {
-                "file": "motions/login.mtn"
             }
         ],
         "idle": [

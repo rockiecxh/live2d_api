@@ -27,22 +27,22 @@
     "motions": {
         "tap_body": [
             {
-                "file": "motions/daiji_idle_02.mtn"
-            },
-            {
-                "file": "motions/wait_1.mtn"
-            },
-            {
                 "file": "motions/broken_2.mtn"
             },
             {
-                "file": "motions/broken_3.mtn"
+                "file": "motions/wait_1.mtn"
             },
             {
                 "file": "motions/broken_4.mtn"
             },
             {
                 "file": "motions/broken_1.mtn"
+            },
+            {
+                "file": "motions/broken_3.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_02.mtn"
             },
             {
                 "file": "motions/broken_5.mtn"
@@ -50,16 +50,10 @@
         ],
         "flick_head": [
             {
-                "file": "motions/daiji_idle_02.mtn"
-            },
-            {
-                "file": "motions/wait_1.mtn"
-            },
-            {
                 "file": "motions/broken_2.mtn"
             },
             {
-                "file": "motions/broken_3.mtn"
+                "file": "motions/wait_1.mtn"
             },
             {
                 "file": "motions/broken_4.mtn"
@@ -68,15 +62,21 @@
                 "file": "motions/broken_1.mtn"
             },
             {
+                "file": "motions/broken_3.mtn"
+            },
+            {
+                "file": "motions/daiji_idle_02.mtn"
+            },
+            {
                 "file": "motions/broken_5.mtn"
             }
         ],
         "idle": [
             {
-                "file": "motions/daiji_idle_02.mtn"
+                "file": "motions/wait_1.mtn"
             },
             {
-                "file": "motions/wait_1.mtn"
+                "file": "motions/daiji_idle_02.mtn"
             }
         ]
     },

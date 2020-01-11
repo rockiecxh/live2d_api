@@ -27,6 +27,12 @@
     "motions": {
         "tap_body": [
             {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/touch_2.mtn"
+            },
+            {
                 "file": "motions/idle_01.mtn"
             },
             {
@@ -34,12 +40,6 @@
             },
             {
                 "file": "motions/touch_3.mtn"
-            },
-            {
-                "file": "motions/shake.mtn"
-            },
-            {
-                "file": "motions/touch_2.mtn"
             }
         ],
         "shake": [
@@ -49,6 +49,12 @@
         ],
         "flick_head": [
             {
+                "file": "motions/shake.mtn"
+            },
+            {
+                "file": "motions/touch_2.mtn"
+            },
+            {
                 "file": "motions/idle_01.mtn"
             },
             {
@@ -56,12 +62,6 @@
             },
             {
                 "file": "motions/touch_3.mtn"
-            },
-            {
-                "file": "motions/shake.mtn"
-            },
-            {
-                "file": "motions/touch_2.mtn"
             }
         ],
         "idle": [
